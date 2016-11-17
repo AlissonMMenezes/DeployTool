@@ -1,0 +1,7 @@
+# playbook.yml
+name: Docker
+repo: nao sei
+commands:
+  - apt-get clean
+  - apt-get update
+  - apt-get -f install docker-engine -y

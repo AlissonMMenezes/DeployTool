@@ -1,0 +1,8 @@
+# nginx.yml
+name: nginx1
+repo: ""
+commands:
+  - apt-get clean
+  - apt-get update
+  - apt-get -f install nginx -y
+  - service nginx restart
